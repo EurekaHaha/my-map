@@ -16,6 +16,28 @@ class MyMap {
     initMap(options: any) {
         return initMap(options);
     }
+
+    addPoint() {}
+
+    removePoint() {}
+
+    addLine() {}
+
+    removeLine() {}
+
+    addPoints() {}
+
+    addLines() {}
+
+    clearLines() {}
+
+    clearPoints() {}
+
+    runAnimation() {}
+
+    addAnimation() {}
+
+    removeAnimation() {}
 }
 
 export default MyMap;

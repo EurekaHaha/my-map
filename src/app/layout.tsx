@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html style={htmlStyle} lang="en">
       <head>
-        {/* {
+        {
           scripts.map(Comp => <Comp />)
         }
-        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" /> */}
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" />
       </head>
       <body style={bodyStyle} className={inter.className}>{children}</body>
     </html>
