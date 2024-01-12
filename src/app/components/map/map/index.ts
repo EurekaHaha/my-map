@@ -9,11 +9,11 @@ class MyMap {
             return MyMap.mapInstance;
         }
         console.log('new mymap');
-        this.map = this.initMap(options);
+        this.map = this.#initMap(options);
         MyMap.mapInstance = this;
     }
 
-    initMap(options: any) {
+    #initMap(options: any) {
         return initMap(options);
     }
 
