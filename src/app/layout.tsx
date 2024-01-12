@@ -30,7 +30,7 @@ export default function RootLayout({
     <html style={htmlStyle} lang="en">
       <head>
         {
-          scripts.map(Comp => <Comp />)
+          scripts.map(Script => <Script.Comp key={Script.key} />)
         }
         <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" />
       </head>
