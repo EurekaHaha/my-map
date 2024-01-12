@@ -1,6 +1,4 @@
-// import mapboxgl from "maplibre-gl";
 import { MAPBOX_TOKEN } from "./assets";
-import mapboxgl from "mapbox-gl";
 
 export const initMap = (options: any) => {
     mapboxgl.accessToken = MAPBOX_TOKEN;
